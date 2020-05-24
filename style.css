@@ -1,0 +1,56 @@
+body {
+  font-family: "Poppins", cursive;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 16px 20px 6px 40px;
+  height: 60px;
+}
+
+header h1 {
+  display: inline;
+  font-weight: 400;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: inline;
+  padding: 0px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  float: left;
+  margin-left: 12px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+#navli ul li ul:hovar {
+  visibility: visible;
+  display: block;
+}
+
+.homered {
+  background-color: rgb(25, 0, 255);
+  padding: 30px 10px 22px 10px;
+}
+
+.homeblack:hover {
+  background-color: rgb(0, 255, 76);
+  padding: 30px 10px 21px 10px;
+}
